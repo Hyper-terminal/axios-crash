@@ -1,0 +1,31 @@
+q1.
+
+When your browser visits a website…it sends an HTTP request to the (web) server. Which includes HTTP request headers with info like:
+
+What URL you’re requesting (duh!) – https://somesite.com/somepage
+If your visit is referred from another page.
+What browser you’re using – Chrome, Firefox, etc.
+What language set in your browser – English, Spanish, etc.
+What things your browser can cache – css, images, etc.
+
+When your server returns the website…it sends an HTTP response to your web client (browser). Which includes HTTP response headers with info like:
+
+Status of the URL – 200 (working), 301 (redirected), 404 (not found), 500 (server not working), etc. 
+Caching info – if the page is cached, if it’s using CDN, etc.
+
+Content type – HTML, text, etc.
+Age of the cached content – so your browser knows whether to download new info or not.
+What type of content can be executed in the browser – videos, PDF, etc.
+What browser features can be used – microphone, camera, etc.
+
+
+
+
+
+q2. 
+Axios: Axios is a Javascript library used to make HTTP requests from node.js or XMLHttpRequests from the browser and it supports the Promise API
+
+
+
+q3.
+
